@@ -2,7 +2,7 @@
 
 Esta carpeta contiene las bases de datos y el libro de códigos utilizados en la investigación publicada en
 
-> Bobes, V. C. (2024). *Protestas en Cuba. Más allá del 11 de Julio*. FLACSO México.
+> Bobes, V. C. (2024). [*Protestas en Cuba. Más allá del 11 de Julio*.](https://www.flacso.edu.mx/libro/protestas-en-cuba-mas-alla-del-11-de-julio/) FLACSO México.
 
 ## Archivos
 
