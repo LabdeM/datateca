@@ -23,7 +23,7 @@ Si utilizas estas bases de datos, por favor cita:
 **El libro:**
 Bobes, V. C. (2024). *Protestas en Cuba. Más allá del 11 de Julio*. FLACSO México.
 
-**El repositorio**
+**El repositorio:**
 Laboratorio de Métodos FLACSO México. (2026). *Bases de datos: Protestas en Cuba. Más allá del 11 de Julio* [conjunto de datos]. GitHub. https://github.com/LabdeM/datateca/tree/main/protestas_en_Cuba
 
 
