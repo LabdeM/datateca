@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% Paquetes necesarios
+\usepackage{graphicx}    % Para imágenes
+\usepackage{titling}     % Para redefinir \maketitle
+\usepackage{geometry}    % Para márgenes
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+% Personalización de \maketitle para incluir logo
+\pretitle{%
+  \begin{center}
+  \includegraphics[width=5cm]{LabdeMLOGO.png}\par\vspace{1cm}
+  \LARGE
+}
+\posttitle{\par\vspace{0.5cm}\end{center}}
+\preauthor{\begin{center}\large}
+\postauthor{\end{center}}
+\predate{\begin{center}\small}
+\postdate{\end{center}}
+
+% Aquí definimos las variables que Pandoc llena con el YAML
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$author$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+\usepackage{hyperref}
+
+% Paquetes para tablas
+\usepackage{longtable}
+\makeatletter
+\def\LTcaptype{table}
+\makeatother
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{fp}
+\usepackage{xfp}
+\usepackage{tabularx}
+\usepackage{etoolbox}
+
+% Compatibilidad con Pandoc/RMarkdown
+\usepackage{ifxetex,ifluatex}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+
+% Comandos que Pandoc moderno requiere
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Evita errores de numeración
+\setcounter{secnumdepth}{-1}
+
+% Header includes de Pandoc
+$if(header-includes)$
+$for(header-includes)$
+$header-includes$
+$endfor$
+$endif$
+
+% Evitar sangría
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+\maketitle
+$body$
+\end{document}
