@@ -29,8 +29,6 @@ Variable -- Tipo -- Descripción
 - `variable_4` -- Numérico -- [descripción]
 - `variable_5` -- Texto libre -- [descripción]
 
-*Tipos posibles: Texto (clave), Texto (fecha), Texto categórico, Texto libre, Numérico entero, Numérico continuo, Booleano (0/1)*
-
 
 ## 3. Variables y categorías de codificación
 
@@ -54,7 +52,7 @@ Variable -- Tipo -- Descripción
 
 ### 3.3 `variable_3`
 
-[Si es texto libre, indícalo y omite la lista de valores. Si es categórica, lista los valores con su descripción.]
+[Si alguna de tus variables tiene texto libre, señálalo y omite la lista de valores. Si hay categóricas, enlista los valores con su descripción.]
 
 - **Valor A:** [descripción]
 - **Valor B:** [descripción]
@@ -83,6 +81,10 @@ Variable -- Tipo -- Descripción
 ### Licencia y uso
 
 [Indica si los datos tienen alguna restricción de uso o redistribución. Si son de uso libre, menciónalo también.]
+
+## Cómo citar
+
+[Menciona la referencia que pueden utilizar quienes consulten tus datos. De preferencia, te sugerimos subirlos a Zenodo e incluir el DOI generado.]
 
 ---
 ```{=latex}
