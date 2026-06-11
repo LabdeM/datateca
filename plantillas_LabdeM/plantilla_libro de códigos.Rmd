@@ -1,0 +1,92 @@
+---
+title: "Libro de códigos: [nombre de la base de datos]"
+author: "[Nombre o institución]"
+date: "[AAAA-MM-DD]"
+output:
+  pdf_document:
+    template: plantillaLabdeM.tex
+    latex_engine: pdflatex
+---
+
+## 1. Introducción
+
+[Descripción breve de la base de datos: qué registra, de dónde provienen los datos, para qué fue construida.]
+
+- Base de datos `nombre_archivo`: [descripción breve]. Contiene N observaciones.
+
+[Si tienes varias bases con la misma estructura, agrega más entradas a la lista. Si solo es una, puedes describir directamente en prosa.]
+
+Cada fila corresponde a un [evento / caso / unidad de análisis]. [Agrega cualquier aclaración general sobre el tipo de variables o la lógica de codificación.]
+
+
+## 2. Estructura general de la base de datos
+
+Variable -- Tipo -- Descripción
+
+- `variable_1` -- Texto (clave) -- Identificador único
+- `variable_2` -- Texto (fecha) -- Fecha del registro
+- `variable_3` -- Texto categórico -- [descripción]
+- `variable_4` -- Numérico -- [descripción]
+- `variable_5` -- Texto libre -- [descripción]
+
+*Tipos posibles: Texto (clave), Texto (fecha), Texto categórico, Texto libre, Numérico entero, Numérico continuo, Booleano (0/1)*
+
+
+## 3. Variables y categorías de codificación
+
+### 3.1 `variable_1`
+
+[Descripción de la variable: qué registra, cómo se construyó, si hay un formato específico.]
+
+- `valor_a`: [descripción]
+- `valor_b`: [descripción]
+
+**Nota:** [Cualquier advertencia relevante: valores faltantes, excepciones, inconsistencias conocidas. Elimina esta línea si no aplica.]
+
+
+### 3.2 `variable_2`
+
+[Descripción. Indica el formato si aplica.]
+
+- Formato estándar: `[ejemplo]`
+- [Otro formato posible]: `[ejemplo]`
+
+
+### 3.3 `variable_3`
+
+[Si es texto libre, indícalo y omite la lista de valores. Si es categórica, lista los valores con su descripción.]
+
+- **Valor A:** [descripción]
+- **Valor B:** [descripción]
+
+
+### 3.4 `variable_4`
+
+[Continuar con una sección por variable...]
+
+
+## 4. Notas metodológicas
+
+### [Tema relevante, p. ej. coherencia entre bases / decisiones de codificación]
+
+[Descripción.]
+
+### Campos con valores faltantes
+
+- La columna `variable_x` puede estar vacía cuando [razón].
+- La columna `variable_y` [condición].
+
+### Fuente de los datos
+
+[Descripción de la fuente primaria: organización, plataforma, archivo, trabajo de campo, etcétera. Incluye fechas de recolección o corte temporal.]
+
+### Licencia y uso
+
+[Indica si los datos tienen alguna restricción de uso o redistribución. Si son de uso libre, menciónalo también.]
+
+---
+```{=latex}
+\begin{center}
+\textit{Fin del libro de códigos}
+\end{center}
+```
