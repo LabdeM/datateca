@@ -18,13 +18,15 @@ Si quieres que agreguemos tu base de datos al repositorio, asegúrate de que cum
 - Valores faltantes estandarizados (usar `NA` o celda vacía de forma consistente)
 
 ### Documentación mínima
-Incluye un libro de códigos con al menos:
+Incluye un libro de códigos con, al menos:
 - Nombre de las variables
 - Descripción
 - Tipo de datos (numérico, categórico, fecha, etcétera)
 - Categorías o unidades, según corresponda
 
-También indica la **fuente o procedencia** de los datos, la **fecha de recolección o corte temporal**, y si tienen alguna **licencia o restricción de uso**.
+También indica la **fuente o procedencia** de los datos, la **fecha de recolección o corte temporal** y si tienen alguna **licencia o restricción de uso**.
+
+Asimismo, señala la forma de **citar** la base. En este sentido, te recomendamos utilizar el repositorio abierto [Zenodo](https://about.zenodo.org) para que tu dataset cuente con un DOI. 
 
 En la carpeta `plantillas_LabdeM` encontrarás la plantilla `.tex` y el archivo `.Rmd` de ejemplo para elaborar tu libro de códigos.
 
