@@ -9,7 +9,7 @@ Esta carpeta contiene las bases de datos y el libro de códigos utilizados en la
 - `protestascuba_0720.csv` — Protestas registradas entre 2007 y julio de 2020
 - `protestascuba_11J.csv` — Protestas del estallido social del 11 de julio de 2021 y eventos subsecuentes
 - `protestascuba_2022.csv` — Protestas registradas durante 2022
-- `libro de códigos_protestas Cuba.pdf` — Descripción de variables, categorías de codificación y notas metodológicas
+- `01_libro de códigos_protestas Cuba.pdf` — Descripción de variables, categorías de codificación y notas metodológicas
 
 ## Sobre los datos
 
