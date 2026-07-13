@@ -26,7 +26,7 @@ Incluye un libro de códigos con, al menos:
 
 También indica la **fuente o procedencia** de los datos, la **fecha de recolección o corte temporal** y si tienen alguna **licencia o restricción de uso**.
 
-Asimismo, señala la forma de **citar** la base. En este sentido, te recomendamos utilizar el repositorio abierto [Zenodo](https://about.zenodo.org) para que tu dataset cuente con un DOI. 
+Asimismo, señala la forma de **citar** la base. Te recomendamos utilizar el repositorio abierto [Zenodo](https://about.zenodo.org) para que tus datasets cuenten con un DOI. 
 
 En la carpeta `plantillas_LabdeM` encontrarás la plantilla `.tex` y el archivo `.Rmd` de ejemplo para elaborar tu libro de códigos.
 
